@@ -29,7 +29,7 @@ public class ProdutoRepository {
      * @param id do produto que será localizado.
      * @return Retorna o produto caso seja encontrado.
      */
-    public Prduto obterPorId(Integer id){
+    public Produto obterPorId(Integer id){
         return produtos
             .stream()
             .filter(produto -> produto.getId() == id)
